@@ -6,7 +6,7 @@ using namespace std;
 int main()
 {
 	int a[]={8,4,5,2};
-    LinkedList testlist1, testlist2;
+        LinkedList testlist1, testlist2;
 
 	cout<<"------------the first test:"<<endl<<endl;
 	testlist1.create(a,4);
@@ -16,7 +16,7 @@ int main()
 	testlist1.deleteElem(4);
 	testlist1.display();
 	cout<<"------------insert an element whose value is 7 in the testlist1 after the second element, the expected result should be 8 5 7 2"<<endl<<endl;
-    testlist1.insert(2,7);
+        testlist1.insert(2,7);
 	testlist1.display();
 	cout<<"------------sort the testlist1, the expected should be 2 5 7 8"<<endl<<endl;
 	testlist1.sort();
@@ -32,7 +32,7 @@ int main()
 	testlist2.deleteElem(10);
 	testlist2.display();
 	cout<<"------------insert an element whose value is 7 in the testlist2 at the most beginning, the expected result should be 7 8 4 5 2"<<endl<<endl;
-    testlist2.insert(0,7);
+        testlist2.insert(0,7);
 	testlist2.display();
 	cout<<"------------sort the testlist2, the expected should be 2 4 5 7 8"<<endl<<endl;
 	testlist2.sort();
