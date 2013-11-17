@@ -21,12 +21,12 @@ public:
 	bool isEmpty();
 	void insertsort();
 	void quicksort();
+	int getlength();
+	void display();
+private:
 	void quicksort2(Node *head, Node *tail);
 	Node *partion(Node *head, Node *tail);
-	int getlength();
 
-	void display();
-//	implement create, insert, remove and sort methods.
 };
 
 #endif
