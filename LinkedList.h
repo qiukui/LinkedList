@@ -19,7 +19,10 @@ public:
 	void deleteElem(int e);
 	void create(int *a, int n);
 	bool isEmpty();
-	void sort();
+	void insertsort();
+	void quicksort();
+	void quicksort2(Node *head, Node *tail);
+	Node *partion(Node *head, Node *tail);
 	int getlength();
 
 	void display();
