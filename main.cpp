@@ -19,7 +19,7 @@ int main()
         testlist1.insert(2,7);
 	testlist1.display();
 	cout<<"------------sort the testlist1, the expected should be 2 5 7 8"<<endl<<endl;
-	testlist1.sort();
+	testlist1.quicksort();
 	testlist1.display();
 
 	cout<<endl<<endl;
@@ -35,7 +35,7 @@ int main()
         testlist2.insert(0,7);
 	testlist2.display();
 	cout<<"------------sort the testlist2, the expected should be 2 4 5 7 8"<<endl<<endl;
-	testlist2.sort();
+	testlist2.insertsort();
 	testlist2.display();
 	getchar();
 	return 1;
