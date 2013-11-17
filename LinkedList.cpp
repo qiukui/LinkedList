@@ -129,7 +129,7 @@ Node * LinkedList::partion(Node *head, Node *tail)
 {
 	//每一次划分只交换数据域
 	
-	Node *p；
+	Node *p;
 	Node *mid; //mid 指向划分出来的中间点
 	int key, temp;
 
